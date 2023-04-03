@@ -1,0 +1,103 @@
+*,body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .container{
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav{
+    height: 80px;
+    background-color: #E5E4E2;
+  }
+  nav h2{
+    color: #F88379;
+    font-size: 30px;
+    margin: 20px;
+  }
+  .right-side {
+    display: flex;
+    
+  }
+  .right-side li{
+    list-style: none;
+    margin: 20px;
+    /* color: #555555; */
+  }
+  .right-side li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #555555;
+  }
+  .right-side li a:hover{
+    background-color: #F88379;
+    color: white;
+  }
+  .container-2 {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 870px;
+    background-image: url(../uploadimg/log.webp);
+    background-size: contain;
+  }
+  .container-2 {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    /* height: 850px; */
+    background-color: #F88379;
+    background-image: url(../uploadimg/background.jpeg);
+    background-size: cover;
+    background-attachment: fixed; 
+  }
+  .card{
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    top: 12%;
+    padding: 50px;
+    background-color: #E5E4E2;
+    border-radius: 10%;
+    border: 2px solid #F88379;
+  }
+  textarea{
+    width: 95%;
+    height: 130px;
+  }
+  .card label{
+    font-size: 20px;
+    color: #555555;
+  }
+  /* .card input{ */
+    /* margin: 15px 0; */
+  /* } */
+  .card h2{
+    color: #F88379;
+    /* margin: 15px 90px; */
+    margin: 15px 0;
+    font-weight: 800;
+    font-size: 60px;
+    /* text-align: center; */
+  }
+  textarea{
+    border: 0px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+  .upload{
+    padding: 8px 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+  .submit{
+    padding: 8px 15px;
+    border: 0px;
+    background-color: #F88379;
+    color: white;
+  }
